@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="js.js"></script>
+</head>
+
+<body style="background-image: linear-gradient(#ded6f2, #9198e5);" class="flex">
+    <!--侧边栏-->
+    <div style="background-color: rgb(240, 240, 240); width:200px;border-radius: 15px;margin:5px" class="flex column shadow">
+      <!--头像栏-->
+      <div style="padding: 10px;align-items: center;justify-content: center;margin-bottom: 30px;border-radius:5px;" class="flex">
+        <img src="images/qq_cat.jpg" width="40px" height="40px" alt="" style="border-radius: 50%;">
+        <div style="margin-left: 10px;">ivy-leafh</div>
+      </div>
+      <!--导航栏-->
+       <div class="flex1">
+            <button class="daoHang" onclick="playSound();setTimeout(()=>location.href='index.html',300)">首页</button>
+            <button class="daoHang" onclick="playSound();setTimeout(()=>location.href='about.html',300)">关于</button>
+            <button class="daoHang" onclick="playSound1();setTimeout(()=>location.href='creeper.html',300)">?creeper</button>
+            <button class="daoHang" onclick="playSound();setTimeout(()=>location.href='shortAnimation.html',300)">小动画</button>
+            <button class="daoHang" onclick="playSound();setTimeout(()=>location.href='usefulWeb.html',300)">常用网页</button>
+            <button class="daoHang" onclick="playSound();setTimeout(()=>location.href='Minesweeper.html',300)">扫雷(没做完)</button>
+        </div>
+    </div>
+
+    <!--主区域-->
+    <div style="border-radius: 15px; margin:15px; background-image:url('images/pexels-jos-van-ouwerkerk-377363-38835869.jpg');
+  background-size:cover;align-items: center;justify-content: center" class="flex flex1 shadow column">
+      <p class="whitew">先用c语言搓出来再说吧</p>
+    </div>
+    
+</body>
+</html>
